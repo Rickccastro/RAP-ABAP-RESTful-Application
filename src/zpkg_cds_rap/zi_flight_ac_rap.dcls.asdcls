@@ -1,0 +1,12 @@
+@EndUserText.label: 'Access Control for CarrierID'
+@MappingRole: true
+define role ZI_FLIGHT_AC_RAP {
+    grant 
+        select
+            on
+                ZI_FLIGHT_RAP
+                    where
+//                    auth_object, auth_field 
+                        (CarrierId) = aspect pfcg_auth(ZCARRIDRAP, ZCARRIDRAP, ACTVT = '03');
+                        
+}

@@ -3,10 +3,13 @@
 {
 "FROM":
 [
+"I_CURRENCY",
 "/DMO/FLIGHT"
 ],
 "ASSOCIATED":
-[],
+[
+"I_CURRENCY"
+],
 "BASE":
 [],
 "ANNO_REF":

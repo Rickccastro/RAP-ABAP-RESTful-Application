@@ -23,6 +23,12 @@ define view ZI_FLIGHT_RAP_DETAILS
       SeatsOccupied,
       _Carrier.Name,
       _Connection.ArrivalTime,
+      
+      
+      case when SeatsMax < 260 then 'Small'
+           when SeatsMax >= 260 and SeatsMax < 300  then 'Medium'
+           else 'Big' end as SizeFlight,
+      
       _Carrier,
       _Connection
 
