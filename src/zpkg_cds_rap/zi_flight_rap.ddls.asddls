@@ -1,9 +1,10 @@
 @AbapCatalog.sqlViewName: 'ZI_FLIGHT_RAP_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+//@AccessControl.authorizationCheck: #NOT_ALLOWED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Interface(Basic) Flights'
-@Metadata.ignorePropagatedAnnotations: true
+@Metadata.allowExtensions: true
 define view ZI_FLIGHT_RAP
   as select from /dmo/flight association [1..1] to I_Currency as _Currency on $projection.CurrencyCode = _Currency.Currency
 {
