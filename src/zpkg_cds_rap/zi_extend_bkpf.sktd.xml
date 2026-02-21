@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SKTD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SKTD>
+    <METADATA>
+     <DESCRIPTION>Documentation for ZI_EXTEND_BKPF</DESCRIPTION>
+     <LANGUAGE>PT</LANGUAGE>
+     <ABAP_LANGU_VERSION>0</ABAP_LANGU_VERSION>
+    </METADATA>
+    <REF_OBJECT>
+     <TYPE>DDLS/DF</TYPE>
+     <NAME>ZI_EXTEND_BKPF</NAME>
+    </REF_OBJECT>
+    <ELEMENTS>
+     <item>
+      <ID>ZI_EXTEND_BKPF</ID>
+      <REF>
+       <URI>/sap/bc/adt/ddic/ddl/sources/zi_extend_bkpf</URI>
+       <TYPE>DDLS/DF</TYPE>
+       <NAME>ZI_EXTEND_BKPF</NAME>
+       <DESCRIPTION>Extend BKPF</DESCRIPTION>
+      </REF>
+      <TEXT>Q2RzIGRlIEV4dGVuc8OjbyBkYSBJX0FjY291bnRpbmdEb2N1bWVudCAtIERhIHRhYmVsYSBTdGFu
+ZGFyZCBCS1BGIHBhcmEgIHV0aWxpemHDp8OjbyBkb3MgY2FtcG9zIGN1c3RvbWl6YWRvcyB6emZp
+ZWxkcmFwMSwgenpmaWVsZHJhcDI=</TEXT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_extend_bkpf&amp;type=ddls/df</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+     </item>
+    </ELEMENTS>
+   </SKTD>
+  </asx:values>
+ </asx:abap>
+</abapGit>
