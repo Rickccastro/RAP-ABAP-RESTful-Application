@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SKTD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SKTD>
+    <METADATA>
+     <DESCRIPTION>Documentation for ZI_GDF_TRAVEL</DESCRIPTION>
+     <LANGUAGE>PT</LANGUAGE>
+     <ABAP_LANGU_VERSION>0</ABAP_LANGU_VERSION>
+    </METADATA>
+    <REF_OBJECT>
+     <TYPE>BDEF/BDO</TYPE>
+     <NAME>ZI_GDF_TRAVEL</NAME>
+    </REF_OBJECT>
+    <ELEMENTS>
+     <item>
+      <ID>ZI_GDF_TRAVEL</ID>
+      <REF>
+       <URI>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel</URI>
+       <TYPE>BDEF/BDO</TYPE>
+       <NAME>ZI_GDF_TRAVEL</NAME>
+       <DESCRIPTION>Interface(Basic) Travel</DESCRIPTION>
+      </REF>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel&amp;type=bdef/bdo</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+      <INSTRUCTION_ID>bo</INSTRUCTION_ID>
+     </item>
+     <item>
+      <ID>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAE;name=ZI_GDF_TRAVEL</ID>
+      <REF>
+       <URI>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAE;name=ZI_GDF_TRAVEL</URI>
+       <TYPE>BDEF/BAE</TYPE>
+       <NAME>ZI_GDF_TRAVEL</NAME>
+       <DESCRIPTION>Interface(Basic) Travel</DESCRIPTION>
+      </REF>
+      <PARENT>ZI_GDF_TRAVEL</PARENT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel&amp;type=bdef/bae</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+     </item>
+     <item>
+      <ID>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BSO;name=ZI_GDF_TRAVEL.create</ID>
+      <REF>
+       <URI>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BSO;name=ZI_GDF_TRAVEL.create</URI>
+       <TYPE>BDEF/BSO</TYPE>
+       <NAME>create</NAME>
+      </REF>
+      <SHORTTEXT>Q3JlYXRlIFRyYXZlbA==</SHORTTEXT>
+      <TEXT>Q3JlYXRlIG9wZXJhdGlvbiBmb3IgVHJhdmVsIGVudGl0eSA=</TEXT>
+      <PARENT>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAE;name=ZI_GDF_TRAVEL</PARENT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.create&amp;type=bdef/bso</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+      <DISPLAY_NAME>create</DISPLAY_NAME>
+     </item>
+     <item>
+      <ID>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BSO;name=ZI_GDF_TRAVEL.update</ID>
+      <REF>
+       <URI>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BSO;name=ZI_GDF_TRAVEL.update</URI>
+       <TYPE>BDEF/BSO</TYPE>
+       <NAME>update</NAME>
+      </REF>
+      <SHORTTEXT>VXBkYXRlIFRyYXZlbA==</SHORTTEXT>
+      <TEXT>VXBkYXRlIG9wZXJhdGlvbiBmb3IgVHJhdmVsIGVudGl0eSA=</TEXT>
+      <PARENT>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAE;name=ZI_GDF_TRAVEL</PARENT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.update&amp;type=bdef/bso</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+      <DISPLAY_NAME>update</DISPLAY_NAME>
+     </item>
+    </ELEMENTS>
+    <INSTRUCTIONS>
+     <item>
+      <ID>bo</ID>
+      <TEXT>Describe important aspects of the business object such as processes, authorization concept and status concept.</TEXT>
+     </item>
+     <item>
+      <ID>shorttext</ID>
+      <TEXT>Provide a meaningful short text with 60 characters max.</TEXT>
+     </item>
+    </INSTRUCTIONS>
+   </SKTD>
+  </asx:values>
+ </asx:abap>
+</abapGit>
