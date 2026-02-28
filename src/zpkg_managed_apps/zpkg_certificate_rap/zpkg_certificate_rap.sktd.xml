@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SKTD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SKTD>
+    <METADATA>
+     <DESCRIPTION>Documentation for ZPKG_CERTIFICATE_RAP</DESCRIPTION>
+     <LANGUAGE>PT</LANGUAGE>
+     <ABAP_LANGU_VERSION>0</ABAP_LANGU_VERSION>
+    </METADATA>
+    <REF_OBJECT>
+     <TYPE>DEVC/K</TYPE>
+     <NAME>ZPKG_CERTIFICATE_RAP</NAME>
+    </REF_OBJECT>
+    <ELEMENTS>
+     <item>
+      <ID>ZPKG_CERTIFICATE_RAP</ID>
+      <REF>
+       <URI>/sap/bc/adt/packages/zpkg_certificate_rap</URI>
+       <TYPE>DEVC/K</TYPE>
+       <NAME>ZPKG_CERTIFICATE_RAP</NAME>
+       <DESCRIPTION>Package for Certification RAP App</DESCRIPTION>
+      </REF>
+      <TEXT>Q2VydGlmaWNhdGlvbiBBcHAgCgpUaGlzIGFwcCBtYW5nZWQgY2VydGlmaWNhdGlvbiBmb3IgcHJv
+ZHVjdHMsIGZvciBleGFtcGxlIGl0IGlzIHBvc3NpYmxlIHRvIHZlcmlmeSBpZiBhbiBwcm9kdWN0
+IGhhdmUgYSBTZWN1cml0eSBDZXJ0aWZpY2F0aW9uLiAKCkluIGFkZGl0aW9uLCB0aGUgY2VydGlm
+aWNhdGVzIGFyZSBzdG9yZWQgaW4gdGhlIFNBUCBzeXN0ZW0gdGhyb3VnaCBkb2N1bWVudCBpbmZv
+IHJlY29yZHMgbGlua2VkIHRvIHRoZSBtYXRlcmlhbC4KClZlcnNpb25zIGNhbiBiZSBtYWludGFp
+bmVkIGZvciBlYWNoIG1hdGVyaWFsLgoKRm9yIGVhY2ggdmVyc2lvbiwgdGhlcmUgaXMgYSBzdGF0
+dXMgYnkgd2hpY2ggeW91IGNhbiBkaXJlY3RseSByZWNvZ25pemUgd2hpY2ggdmVyc2lvbiBpcyBh
+Y3RpdmUuCgpJdCBhbHNvIGFsbG93cyB5b3UgdG8gcXVpY2tseSBkZXRlcm1pbmUgd2hldGhlciBh
+IG5ldyB2ZXJzaW9uIGlzIGFscmVhZHkgYmVpbmcgd29ya2VkIG9uLgoKT25jZSBhIHZlcnNpb24g
+aXMgYWN0aXZlIG9yIGluYWN0aXZlLCB0aGUgc3RhdGVzIGNhbiBubyBsb25nZXIgYmUgY2hhbmdl
+ZC4KCldoZW4gY2hhbmdlcyBhcmUgbWFkZSwgYSBuZXcgdmVyc2lvbiBtdXN0IGJlIGNyZWF0ZWQu
+CgpBdCBydW50aW1lLCB0aGUgc3lzdGVtIGRldGVybWluZXMgYW5kIGRpc3BsYXlzIGluIHRoZSBh
+cHBsaWNhdGlvbiB3aGV0aGVyIGEgY2VydGlmaWNhdGUgc3RhdGVtZW50IGlzIHN0b3JlZCBpbiB0
+aGUgYXNzb2NpYXRlZCBkb2N1bWVudCBpbmZvIHJlY29yZC4KCkVhY2ggc3RhdHVzIGNoYW5nZSBp
+cyByZWNvcmRlZCBpbiBhIHRhYmxlIGZvciBzdGF0dXMgbWFuYWdlbWVudC4KClRoaXMgbWVhbnMg
+aXQgaXMgYWx3YXlzIGNsZWFyIHdobyBjaGFuZ2VkIHdoYXQgYW5kIHdoZW4u</TEXT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zpkg_certificate_rap&amp;type=devc/k</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+     </item>
+    </ELEMENTS>
+   </SKTD>
+  </asx:values>
+ </asx:abap>
+</abapGit>
