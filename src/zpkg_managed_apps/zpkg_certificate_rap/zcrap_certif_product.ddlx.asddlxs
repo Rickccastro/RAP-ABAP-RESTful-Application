@@ -1,0 +1,83 @@
+@Metadata.layer: #CUSTOMER
+@UI: { headerInfo:{
+       typeName: 'Cerfiticate',
+       typeNamePlural: 'Certificates',
+       imageUrl: 'Icon',
+       title:{ label: 'Certificate', value: 'Matnr', type: #STANDARD }
+  }}
+annotate entity ZCRAP_CERTIF_PRODUCT with
+{
+  @UI.facet: [{
+      purpose: #HEADER,
+      type: #FIELDGROUP_REFERENCE,
+      importance: #HIGH,
+      position: 1,
+      label: 'Tecnical Data',
+      targetQualifier: 'HeaderData'},
+
+      {
+         id:'Certificate',
+         purpose: #STANDARD,
+         type: #IDENTIFICATION_REFERENCE,
+         label: 'Certificate Management',
+         position:10
+       },
+
+         {
+          purpose: #STANDARD,
+          type: #FIELDGROUP_REFERENCE,
+          importance:#HIGH,
+          position: 20,
+          targetQualifier: 'Detail',
+          label: 'Detail Info'
+       },
+
+       {
+          id: 'CertificateState',
+          purpose: #STANDARD,
+          type: #LINEITEM_REFERENCE,
+          label: 'Status Changes',
+          position: 30,
+          targetElement: '_Stats'
+       }
+   ]
+
+
+  @UI.hidden: true
+  CertUuid;
+
+  @UI.identification:[{ position:  20 }]
+  @UI.selectionField: [{ position: 20 }]
+  @UI.lineItem: [{ position: 20, label: 'Cerfiticate'  }]
+  Matnr;
+
+  @UI.selectionField: [{ position: 30 }]
+  @UI.lineItem: [{ position: 30, label: 'Description'  }]
+  @UI.fieldGroup: [{ qualifier: 'Detail' }]
+  Description;
+
+  @UI.identification:[{ position:  30 }]
+  @UI.lineItem: [{  label: 'Version'  }]
+  @UI.fieldGroup: [{ qualifier: 'HeaderData' }]
+  Version;
+
+  @UI.identification:[{ position:  40 }]
+  @UI.lineItem: [{ label: 'Version'  }]
+  CertCe;
+
+  @UI.identification:[{ position:  50 }]
+  @UI.lineItem: [{ label: 'Certificate FCC'  }]
+  CertFcc;
+
+  @UI.identification:[{ position:  60 }]
+  @UI.lineItem: [{ label: 'Certificate GS'  }]
+  CertGs;
+
+  @UI.identification:[{ position:  70 }]
+  @UI.lineItem: [{ label: 'Certificate ISO'  }]
+  CertIso;
+
+  @UI.identification:[{ position:  80 }]
+  @UI.lineItem: [{ label: 'Certificate Tuev'  }]
+  CertTuev;
+}

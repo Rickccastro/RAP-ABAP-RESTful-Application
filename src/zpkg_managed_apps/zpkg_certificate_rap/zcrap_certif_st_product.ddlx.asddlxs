@@ -1,0 +1,50 @@
+@Metadata.layer: #CUSTOMER
+
+@UI: { headerInfo:{
+       typeName: 'Status',
+       typeNamePlural: 'Statuses',
+       title:{ label: 'Status', value: 'Status', type: #STANDARD }
+  }}
+
+annotate entity ZCRAP_CERTIF_ST_PRODUCT with
+{
+  @UI.facet:[{
+      id: 'Status',
+      purpose:#STANDARD,
+      type:#IDENTIFICATION_REFERENCE
+  }]
+
+  @UI.hidden: true
+  StateUuid;
+
+  @UI.hidden: true
+  CertUuid;
+
+  @UI.hidden: true
+  Matnr;
+
+
+  @UI:{ lineItem:[{ position:10 }],
+        identification: [{ position: 10 }]}
+  Version;
+  
+    @UI:{ lineItem:[{ position:20 }],
+        identification: [{ position: 20 }]}
+  Status;
+  
+   @UI:{ lineItem:[{ position:30, label: 'Previous Status' }],
+         identification: [{ position: 30, label:'Previous Status'}]}
+  StatusOld;
+  
+      
+    @UI: { lineItem: [ { position: 40, label: 'Modified By' } ],
+    identification: [ { position: 40,  label: 'Modified By' }]}
+    LastChangedBy;
+    
+    @UI: { lineItem: [ { position: 50, label: 'Modified In' } ],
+    identification: [ { position: 50,
+    label: 'Modified In' }]}
+    LastChangedAt;
+
+
+}
