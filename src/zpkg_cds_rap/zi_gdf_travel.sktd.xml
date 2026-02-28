@@ -101,6 +101,48 @@
       <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
       <DISPLAY_NAME>update</DISPLAY_NAME>
      </item>
+     <item>
+      <ID>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BSO;name=ZI_GDF_TRAVEL.delete</ID>
+      <REF>
+       <URI>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BSO;name=ZI_GDF_TRAVEL.delete</URI>
+       <TYPE>BDEF/BSO</TYPE>
+       <NAME>delete</NAME>
+      </REF>
+      <PARENT>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAE;name=ZI_GDF_TRAVEL</PARENT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.delete&amp;type=bdef/bso</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+      <DISPLAY_NAME>delete</DISPLAY_NAME>
+     </item>
+     <item>
+      <ID>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAC;name=ZI_GDF_TRAVEL.call</ID>
+      <REF>
+       <URI>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAC;name=ZI_GDF_TRAVEL.call</URI>
+       <TYPE>BDEF/BAC</TYPE>
+       <NAME>call</NAME>
+      </REF>
+      <PARENT>/sap/bc/adt/bo/behaviordefinitions/zi_gdf_travel/source/main#type=BDEF/BAE;name=ZI_GDF_TRAVEL</PARENT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.call&amp;type=bdef/bac</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>mandatory</LONGTEXT_OBLIGATION>
+      <DISPLAY_NAME>call</DISPLAY_NAME>
+     </item>
     </ELEMENTS>
     <INSTRUCTIONS>
      <item>

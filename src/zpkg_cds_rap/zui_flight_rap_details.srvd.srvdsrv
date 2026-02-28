@@ -2,4 +2,5 @@
 define service ZUI_FLIGHT_RAP_DETAILS {
   expose ZI_FLIGHT_RAP_DETAILS;
   expose ZI_FLIGHT_RAP_CUSTOM_ENTITY;
+  expose ZI_GDF_TRAVEL;
 }
