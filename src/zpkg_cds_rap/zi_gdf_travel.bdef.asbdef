@@ -9,5 +9,9 @@ authorization master ( instance )
 {
   create;
   update;
-//  delete;
+  delete;
+// field ( readonly ) TravelId , AgencyId, CustomerId;
+
+action call;
+
 }
