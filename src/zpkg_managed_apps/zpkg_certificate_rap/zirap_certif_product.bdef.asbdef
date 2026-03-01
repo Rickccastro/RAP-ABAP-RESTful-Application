@@ -1,19 +1,31 @@
 managed implementation in class zbp_irap_certif_product unique;
 strict ( 2 );
+with draft;
 
 define behavior for ZIRAP_CERTIF_PRODUCT alias Certificate
 persistent table ztrap_certif
-lock master
+draft table zbtrap_certif
+lock master total etag LocalLastChangedAt
 authorization master ( instance )
 //etag master <field_name>
 {
   create;
   update;
   delete;
-  association _Stats { create; }
+  association _Stats { create; with draft; }
+
+  draft action Edit;
+  draft action Activate;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+
+
+  determination setInitialValues on modify { create; }
+
 
   field ( numbering : managed, readonly ) CertUUID;
-  field ( readonly ) Description;
+  field ( readonly ) CertStatus, Version, Description;
   field ( mandatory ) Matnr;
 
   mapping for ztrap_certif
@@ -33,11 +45,12 @@ authorization master ( instance )
 
 define behavior for ZIRAP_CERTIF_ST_PRODUCT alias CertificateST
 persistent table ztrap_certif_st
+draft table zbtrap_certif_st
 lock dependent by _Certif
 authorization dependent by _Certif
 //etag master <field_name>
 {
-  // update;
+//  update;
   delete;
 
   field ( readonly ) CertUuid;
