@@ -5,6 +5,8 @@ CLASS lhc_Certificate DEFINITION INHERITING FROM cl_abap_behavior_handler.
       IMPORTING keys REQUEST requested_authorizations FOR Certificate RESULT result.
     METHODS setinitialvalues FOR DETERMINE ON MODIFY
       IMPORTING keys FOR certificate~setinitialvalues.
+    METHODS checkmaterial FOR VALIDATE ON SAVE
+      IMPORTING keys FOR certificate~checkmaterial.
 
 ENDCLASS.
 
@@ -70,6 +72,9 @@ CLASS lhc_Certificate IMPLEMENTATION.
 
     ENDLOOP.
 
+  ENDMETHOD.
+
+  METHOD checkMaterial.
   ENDMETHOD.
 
 ENDCLASS.

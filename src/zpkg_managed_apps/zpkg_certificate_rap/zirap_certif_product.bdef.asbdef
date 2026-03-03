@@ -15,6 +15,7 @@ authorization master ( instance )
   association _Stats { create; with draft; }
 
   draft action Edit;
+//  Nao adicionar a tag Optimized
   draft action Activate;
   draft action Discard;
   draft action Resume;
@@ -23,6 +24,7 @@ authorization master ( instance )
 
   determination setInitialValues on modify { create; }
 
+  validation checkMaterial on save { create; update; }
 
   field ( numbering : managed, readonly ) CertUUID;
   field ( readonly ) CertStatus, Version, Description;
