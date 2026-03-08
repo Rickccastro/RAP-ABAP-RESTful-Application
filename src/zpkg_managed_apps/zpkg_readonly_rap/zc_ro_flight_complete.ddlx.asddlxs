@@ -1,0 +1,100 @@
+@Metadata.layer: #CUSTOMER
+
+@UI:{ 
+    headerInfo:{
+        typeName: 'Flight',
+        typeNamePlural: 'Flights',
+        imageUrl: 'Icon',
+        title:{
+            type: #STANDARD,
+            value: 'Id'
+        }
+// ,       
+//        description:{
+//            value: ''
+//        }      
+    }
+}
+
+@UI.lineItem: [{ criticality: 'Criticality' }]
+annotate entity ZC_RO_FLIGHT_COMPLETE
+    with 
+{
+
+    @UI.facet: [
+     { 
+        id: 'HeaderFacet1',
+        purpose: #HEADER,
+        type: #DATAPOINT_REFERENCE,
+        position: 10,
+        label: 'City From',
+        targetQualifier:'CityFrom'
+     },
+     {
+        id: 'HeaderFacet2',
+        purpose: #HEADER,
+        type: #DATAPOINT_REFERENCE,
+        position: 20,
+        label: 'City To',
+        targetQualifier:'CityTo'    
+     },
+     { 
+     
+        id: 'IdentificationFacet',
+        type: #DATAPOINT_REFERENCE,
+        purpose: #STANDARD,
+        position: 30,
+        label: 'Information of Reprocess'
+     }     
+     ]
+
+
+
+   @EndUserText.label: 'ID'
+   @UI.lineItem: [ { position:10 } ]
+   @UI.identification: [{ position: 10, type: #STANDARD }]
+   @UI.selectionField: [{ position: 10 }]
+   Id;
+   
+   @EndUserText.label: 'Departure Date'
+   @UI.lineItem: [ { position: 20 } ]
+   @UI.identification: [{ position: 20, type: #STANDARD }]
+   @UI.selectionField: [{ position: 20 }]
+   DepartureDate;
+   
+   @EndUserText.label: 'Departure Date'
+   @UI.lineItem: [ { position: 30 } ]
+   @UI.identification: [{ position: 30, type: #STANDARD }]
+   @UI.selectionField: [{ position: 30 }]
+   ArrivalDate;
+   
+   @EndUserText.label: 'City From'
+   @UI.lineItem: [ { position: 40 } ]
+   @UI.identification: [{ position: 40, type: #STANDARD }]
+   @UI.selectionField: [{ position: 40 }]
+   @UI.dataPoint:{ qualifier: 'CityFrom', title: 'City From'}
+   CityFrom;
+   
+   @EndUserText.label: 'City To'
+   @UI.lineItem: [ { position: 50 } ]
+   @UI.identification: [{ position: 50, type: #STANDARD }]
+   @UI.selectionField: [{ position: 50 }]   
+   @UI.dataPoint:{ qualifier: 'CityTo', title: 'City To'}
+    CityTo;
+   @EndUserText.label: 'Price'
+   @UI.lineItem: [ { position: 60 } ]
+   @UI.identification: [{ position: 60, type: #STANDARD }]
+   @UI.selectionField: [{ position: 60 }]   
+    Price;
+   @EndUserText.label: 'Status'
+   @UI.lineItem: [ { position: 70 } ]
+   @UI.identification: [{ position: 70, type: #STANDARD }]
+   @UI.selectionField: [{ position: 70 }] 
+   Status;
+   
+   @EndUserText.label: 'Flights'
+//   Coloquei no inicio da grid
+   @UI.lineItem: [ { position: 9 } ]
+   Icon;
+//   Criticality;
+}

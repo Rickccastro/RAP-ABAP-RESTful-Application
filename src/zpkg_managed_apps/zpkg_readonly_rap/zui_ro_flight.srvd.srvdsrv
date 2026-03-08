@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service for Flights'
+define service ZUI_RO_FLIGHT {
+  expose ZC_RO_FLIGHT_COMPLETE;
+}
