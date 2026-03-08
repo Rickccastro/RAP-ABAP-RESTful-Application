@@ -20,6 +20,12 @@
      <MSGNR>001</MSGNR>
      <TEXT>Material &amp;1 doesn&apos;t exist</TEXT>
     </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZCL_MESSAGES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Version generated successfully</TEXT>
+    </T100>
    </T100>
   </asx:values>
  </asx:abap>
