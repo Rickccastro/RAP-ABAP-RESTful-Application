@@ -46,9 +46,15 @@ annotate entity ZCRAP_CERTIF_PRODUCT with
   @UI.hidden: true
   CertUuid;
 
-  @UI.identification:[{ position:  20 }]
   @UI.selectionField: [{ position: 20 }]
-  @UI.lineItem: [{ position: 20, label: 'Cerfiticate'  }]
+  @UI.identification: [{ position: 20 },
+                       { type: #FOR_ACTION, dataAction: 'NewVersion' , label: 'New Version'},
+                       { type: #FOR_ACTION, dataAction: 'ActiveVersion' , label: 'Active Version'},
+                       { type: #FOR_ACTION, dataAction: 'InactiveVersion' , label: 'Inactive Version'}]
+
+  @UI.lineItem: [{ position: 20, label: 'Cerfiticate'  },
+   { type: #FOR_ACTION, dataAction:'NewVersion', label: 'New Version' }
+  ]
   Matnr;
 
   @UI.selectionField: [{ position: 30 }]
@@ -56,13 +62,20 @@ annotate entity ZCRAP_CERTIF_PRODUCT with
   @UI.fieldGroup: [{ qualifier: 'Detail' }]
   Description;
 
-  @UI.identification:[{ position:  30 }]
-  @UI.lineItem: [{  label: 'Version'  }]
+//  31 porque esqueci de adicionar na criação, 
+//  por isso é interessante os intervalos de 10 em 10
+  @UI.identification:[{ position:  31 }]
+  @UI.lineItem: [{ position: 31, label: 'Status'  }]
+  @UI.fieldGroup: [{ qualifier: 'HeaderData' }]
+  CertStatus;
+  
+  @UI.identification:[{ position:  32 }]
+  @UI.lineItem: [{  position: 32, label: 'Version'  }]
   @UI.fieldGroup: [{ qualifier: 'HeaderData' }]
   Version;
 
   @UI.identification:[{ position:  40 }]
-  @UI.lineItem: [{ label: 'Version'  }]
+  @UI.lineItem: [{ label: 'Certificate Ce'  }]
   CertCe;
 
   @UI.identification:[{ position:  50 }]
