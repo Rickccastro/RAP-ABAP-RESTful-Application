@@ -2,5 +2,6 @@
 @EndUserText.label: 'Extend BKPF'
 extend view I_AccountingDocument with ZI_EXTEND_BKPF
 {
-    bkpf.zzfieldrap1
+    bkpf.zzfieldrap1,
+    bkpf.zzfieldrap2
 }
