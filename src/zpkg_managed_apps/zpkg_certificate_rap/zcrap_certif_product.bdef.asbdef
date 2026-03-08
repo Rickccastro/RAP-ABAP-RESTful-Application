@@ -16,6 +16,10 @@ define behavior for ZCRAP_CERTIF_PRODUCT alias Certificate
   use action Resume;
   use action Prepare;
 
+  use action NewVersion;
+  use action ActiveVersion;
+  use action InactiveVersion;
+
 }
 
 define behavior for ZCRAP_CERTIF_ST_PRODUCT alias Certificate_ST

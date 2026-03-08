@@ -6,7 +6,7 @@ define behavior for ZIRAP_CERTIF_PRODUCT alias Certificate
 persistent table ztrap_certif
 draft table zbtrap_certif
 lock master total etag LocalLastChangedAt
-authorization master ( instance )
+authorization master ( global, instance )
 //etag master <field_name>
 {
   create;
@@ -25,6 +25,11 @@ authorization master ( instance )
   determination setInitialValues on modify { create; }
 
   validation checkMaterial on save { create; update; }
+
+  action ( features: instance ) NewVersion result[1]$self;
+  action ( features: instance ) ActiveVersion result[1]$self;
+  action ( features: instance ) InactiveVersion result[1]$self;
+
 
   field ( numbering : managed, readonly ) CertUUID;
   field ( readonly ) CertStatus, Version, Description;
