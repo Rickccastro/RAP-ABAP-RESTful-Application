@@ -1,0 +1,46 @@
+managed implementation in class zbp_irap_order_app unique;
+strict ( 2 );
+
+//Implementar draft para utilizar o Odata V4 por causa do strict
+define behavior for ZIRAP_ORDER_APP alias Order
+persistent table ztrap_order
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  association _Items { create; }
+  field ( readonly,numbering : managed ) Orderid;
+
+  mapping for ztrap_order{
+    Orderid             = orderid;
+    Customer            = customer;
+    Vendor              = vendor;
+    Company             = company;
+  }
+}
+
+define behavior for ZIRAP_ORDER_IT_APP alias Items
+persistent table ztrap_order_it
+lock dependent by _Order
+authorization dependent by _Order
+early numbering
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) Orderid;
+  field ( readonly ) Item;
+  field ( readonly ) SalesPrice;
+  association _Order;
+
+    mapping for ztrap_order_it{
+    Orderid = orderid;
+    Item    = item;
+    Product = product;
+    Currency = unity_measure;
+    Quantity = quantity;
+  }
+}

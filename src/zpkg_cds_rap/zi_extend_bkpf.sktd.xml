@@ -4,7 +4,7 @@
   <asx:values>
    <SKTD>
     <METADATA>
-     <DESCRIPTION>Documentation for ZI_EXTEND_BKPF</DESCRIPTION>
+     <DESCRIPTION>Dokumentation für ZI_EXTEND_BKPF</DESCRIPTION>
      <LANGUAGE>PT</LANGUAGE>
      <ABAP_LANGU_VERSION>0</ABAP_LANGU_VERSION>
     </METADATA>
@@ -30,7 +30,7 @@ ZWxkcmFwMSwgenpmaWVsZHJhcDI=</TEXT>
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_extend_bkpf&amp;type=ddls/df</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>

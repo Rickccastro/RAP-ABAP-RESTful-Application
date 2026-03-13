@@ -1,0 +1,19 @@
+projection;
+strict ( 2 );
+
+define behavior for ZC_RAP_ORDER_APP alias Order
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _Items { create; }
+}
+
+define behavior for ZC_RAP_ORDER_IT_APPS alias Items
+{
+  use update;
+  use delete;
+
+  use association _Order;
+}

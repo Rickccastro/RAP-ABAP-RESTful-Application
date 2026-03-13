@@ -4,7 +4,7 @@
   <asx:values>
    <SKTD>
     <METADATA>
-     <DESCRIPTION>Documentation for ZI_GDF_TRAVEL</DESCRIPTION>
+     <DESCRIPTION>Dokumentation für ZI_GDF_TRAVEL</DESCRIPTION>
      <LANGUAGE>PT</LANGUAGE>
      <ABAP_LANGU_VERSION>0</ABAP_LANGU_VERSION>
     </METADATA>
@@ -27,7 +27,7 @@
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel&amp;type=bdef/bdo</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>
@@ -49,7 +49,7 @@
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel&amp;type=bdef/bae</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>
@@ -71,7 +71,7 @@
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.create&amp;type=bdef/bso</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>
@@ -94,7 +94,7 @@
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.update&amp;type=bdef/bso</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>
@@ -115,7 +115,7 @@
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.delete&amp;type=bdef/bso</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>
@@ -136,7 +136,7 @@
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zi_gdf_travel.zi_gdf_travel.call&amp;type=bdef/bac</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>optional</SHORTTEXT_OBLIGATION>

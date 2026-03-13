@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Read Only Sales Child'
+define service ZUI_RO_ORDER {
+  expose ZC_RAP_ORDER_IT_APPS;
+  expose ZC_RAP_ORDER_APP;
+}

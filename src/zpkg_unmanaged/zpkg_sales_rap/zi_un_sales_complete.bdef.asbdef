@@ -1,0 +1,25 @@
+unmanaged implementation in class zbp_i_un_sales_complete unique;
+strict ( 2 );
+
+define behavior for ZI_UN_SALES_COMPLETE alias Sales
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  field( readonly ) Orderid;
+
+  mapping for ztrap_sales control zesrap_sales {
+    Orderid                = orderid;
+    Customer               = customer;
+    Vendor                 = vendor;
+    Company                = company;
+    CreatedAt              = created_at;
+    LocalLastChangedAt     = local_last_changed_at;
+
+  }
+}

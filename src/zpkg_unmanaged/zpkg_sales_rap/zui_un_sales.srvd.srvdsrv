@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service for projection unmanaged sales'
+define service Zui_un_sales {
+  expose ZC_UN_SALES_COMPLETE;
+}

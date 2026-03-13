@@ -4,7 +4,7 @@
   <asx:values>
    <SKTD>
     <METADATA>
-     <DESCRIPTION>Documentation for ZPKG_CERTIFICATE_RAP</DESCRIPTION>
+     <DESCRIPTION>Dokumentation für ZPKG_CERTIFICATE_RAP</DESCRIPTION>
      <LANGUAGE>PT</LANGUAGE>
      <ABAP_LANGU_VERSION>0</ABAP_LANGU_VERSION>
     </METADATA>
@@ -43,7 +43,7 @@ aXQgaXMgYWx3YXlzIGNsZWFyIHdobyBjaGFuZ2VkIHdoYXQgYW5kIHdoZW4u</TEXT>
         <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zpkg_certificate_rap&amp;type=devc/k</HREF>
         <REL>http://www.sap.com/adt/relations/elementinfo</REL>
         <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
-        <TITLE>Show Element Information</TITLE>
+        <TITLE>Elementinformationen anzeigen</TITLE>
        </item>
       </LINKS>
       <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>

@@ -1,0 +1,5 @@
+CLASS zbp_irap_order_app DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zirap_order_app.
+ENDCLASS.
+
+CLASS zbp_irap_order_app IMPLEMENTATION.
+ENDCLASS.
